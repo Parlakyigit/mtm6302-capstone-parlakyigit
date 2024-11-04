@@ -9,3 +9,6 @@ For my project, I created three main pages: Home, Favourites, and Explore Space.
 • Favourites Page: Users can save and delete images using intuitive icons. The functionality is powered by local storage, allowing users to manage their favourite images easily.
 • Explore Space Page: This page provides users with recommendations for space-related content such as movies, books, and podcasts, along with fascinating information about space.
 I chose Roboto as the font to ensure readability and a modern aesthetic. The website is responsive on smaller screen by adjusting typography and image sizes.
+##Prototype Challenges
+While creating this prototype, I faced challenges, espicially when it came to making the protoytpe responsive. I also thought about exactly what CSS I could include in prototype, as I implemented most of the styles using Bootstrap and W3School and
+https://www.youtube.com/watch?v=W87XNjvXiWw (Responsive background image)
