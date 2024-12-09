@@ -77,17 +77,22 @@
                 <source srcset="./images/earth-200_x_103.jpg" media="(min-width: 600px)">
                 <img src="./images/earth.jpg" class="img-fluid w-100" alt="earth image">
             </picture>
-            <div class="text-center mt-5 text-light">
+            <!--<div class="text-center mt-5 text-light">
                 <button class="btn btn-primary">Add to Favourites</button>
-              </div>
+              </div>-->
         </div>
       </div>
       <div class="col-12 col-md-6">
         <div class="calendar-header d-flex justify-content-between align-items-center mb-3">
-            <h3 class="text-center">January 2022</h3>
+            <h3 class="text-center">Calender</h3>
             <span class="arrow">&#8592;</span>
             <span class="arrow">&#8594;</span>
           </div>
+          <div class="container mt-4 text-center">
+            <input type="date" id="date-input" class="form-control">
+            <button id="fetch-btn" class="btn btn-primary mt-4">Submit</button>
+        </div>
+        
         <div class="card rounded-0 border-0">
             <table class="table table-bordered text-center">
                 <thead>
@@ -110,12 +115,23 @@
                   <tr><td>30</td><td>31</td><td></td><td></td><td></td><td></td><td></td></tr>
                 </tbody>
               </table>
-              <div class="text-center mt-3">
-                <button class="btn btn-primary mb-4">Submit</button>
-              </div>
+
+                
+               
         </div>
       </div></div>
     </section>
+<!-- APOD Display Section -->
+<section id="apod-container" class="container mt-4"></section>
+
+<!-- Favorites Section -->
+<section id="favorites-container" class="container mt-4">
+    <h2>Favorites</h2>
+    <div class="text-center mt-5 text-light">
+      <button class="btn btn-primary"id="static-favourite-btn">Add to Favourites</button>
+    </div>
+</section>
+
 
  <!--second part-->
 
@@ -169,5 +185,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- App JavaScript -->
+    <script src="home1.js"></script>
   </body>
 </html>
