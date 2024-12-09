@@ -12,3 +12,10 @@ I chose Roboto as the font to ensure readability and a modern aesthetic. The web
 ##Prototype Challenges
 While creating this prototype, I faced challenges, espicially when it came to making the protoytpe responsive. I also thought about exactly what CSS I could include in prototype, as I implemented most of the styles using Bootstrap and W3School and
 https://www.youtube.com/watch?v=W87XNjvXiWw (Responsive background image)
+###javascript challenges
+•I faced some difficulty in understanding how to properly fetch data from an API and handle the response, especially when dealing with different types of errors like invalid dates or missing images.
+•Creating error messages using if statements took some time. I had to ensure that the messages clearly explained why the API call failed, such as if no image was available or if the date entered was invalid.
+•For non-dynamic changes, such as titles or static content, it feels easier for me to use HTML instead of JavaScript. I find that using the DOM for only dynamic changes makes the code shorter and clearer.
+sources:
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+https://www.w3schools.com/js/

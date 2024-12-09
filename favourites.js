@@ -44,7 +44,7 @@ function loadFavourites() {
     favContainer.innerHTML += favouriteHTML;
   });
 
-  // Add event listeners for trash and download buttons
+  //  Event listeners for trash and download buttons
   const trashIcons = document.querySelectorAll(".trash-icon");
   const downloadIcons = document.querySelectorAll(".download-icon");
 
@@ -74,7 +74,7 @@ function deleteFavourite(event) {
 function downloadImage(event) {
   const imageUrl = event.target.dataset.url;
 
-  // Create a temporary anchor element to initiate the download
+  //  A temporary anchor element to initiate the download
   const anchor = document.createElement("a");
   anchor.href = imageUrl;
   anchor.download = "nasa_apod_image.jpg"; // Default filename
