@@ -24,3 +24,23 @@
   background-color: var(--bs-primary);
   color: var(--bs-dark);
 }
+.trash-icon,
+.download-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.col-auto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .col-1.d-none.d-md-block {
+    display: block !important;
+    width: 100%;
+  }
+  
+}
